@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DshbrdComponent } from './dshbrd/dshbrd.component';
 import { MycartComponent } from './mycart/mycart.component';
+import { LaptopsComponent } from './laptops/laptops.component';
+import { TabletsComponent } from './tablets/tablets.component';
 
 
 @NgModule({
@@ -12,7 +14,9 @@ import { MycartComponent } from './mycart/mycart.component';
     AppComponent,
   
     DshbrdComponent,
-       MycartComponent
+       MycartComponent,
+       LaptopsComponent,
+       TabletsComponent
       
   
   ],
