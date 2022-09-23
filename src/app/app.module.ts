@@ -8,6 +8,13 @@ import { MycartComponent } from './mycart/mycart.component';
 import { LaptopsComponent } from './laptops/laptops.component';
 import { TabletsComponent } from './tablets/tablets.component';
 
+import { SmartWearablesComponent } from './smart-wearables/smart-wearables.component';
+import { HeadphonesComponent } from './headphones/headphones.component';
+import { LoginComponent } from './login/login.component';
+import { DatastorageComponent } from './datastorage/datastorage.component';
+import { MobilesComponent } from './mobiles/mobiles.component';
+import { TelevisionsComponent } from './televisions/televisions.component';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +23,14 @@ import { TabletsComponent } from './tablets/tablets.component';
     DshbrdComponent,
        MycartComponent,
        LaptopsComponent,
-       TabletsComponent
+       TabletsComponent,
+       
+       SmartWearablesComponent,
+       HeadphonesComponent,
+       LoginComponent,
+       DatastorageComponent,
+       MobilesComponent,
+       TelevisionsComponent
       
   
   ],
