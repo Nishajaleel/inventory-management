@@ -20,7 +20,7 @@ const routes: Routes = [
   {path:'smartwearables',component:SmartWearablesComponent},
   {path:'datastorage',component:DatastorageComponent},
   {path:'mobiles',component:MobilesComponent},
-  {path:'televisons',component:TelevisionsComponent}
+  {path:'televisions',component:TelevisionsComponent}
 ];
 
 @NgModule({
