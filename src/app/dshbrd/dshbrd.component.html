@@ -33,7 +33,7 @@
     <li>
       <a href="#">
         <i class='bx bx-cart-add'></i>
-        <span class="logo_name">invoice</span>
+        <span class="logo_name"><a routerLink="../invoice">Invoice</a></span>
       </a>
     </li>
     
@@ -118,6 +118,7 @@
                   </div>
                 </div>
                 </div>
+                
                 <div class="col-sm-3">
                   <div class="card" style="width: 18rem;" >
                     
@@ -130,16 +131,7 @@ upVGxHBun5a7qNRsXocYK8jD7iN6vIQ+4gDzzwcp+Wu6jUbEcHKflruo1Gxeht6vIQ+4sb1eQh9xAHnr
                     </div>
                   </div>
                   </div>
-                  <div class="col-sm-3">
-                    <div class="card">
-                      <img src="data:image/jpeg;base64,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" width="50" height="290" class="card-img-top" >
-                      <div class="card-body">
-                      
-                        <a href="#" ><a routerLink="../headphones">Headphones</a>
-                      </a>
-                      </div>
-                    </div>
-                    </div>
+                  
                     <div class="col-sm-3">
                       <div class="card">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4vcQfEMnT46fsNpIsEMtGVn2rAeFg1NP9Q&usqp=CAU" width="50" height="300" class="card-img-top" >
@@ -180,6 +172,26 @@ upVGxHBun5a7qNRsXocYK8jD7iN6vIQ+4gDzzwcp+Wu6jUbEcHKflruo1Gxeht6vIQ+4sb1eQh9xAHnr
                                 </div>
                               </div>
                               </div>
+                              <div class="col-sm-3">
+                                <div class="card">
+                                  <img src="https://rukminim1.flixcart.com/image/416/416/ktaeqvk0/washing-machine-new/y/1/x/8-48-p8035sraz-5-0-25-81-33-lg-98-original-imag6nqzyah4jzb8.jpeg?q=70" width="50" height="290" class="card-img-top" >
+                                  <div class="card-body">
+                                  
+                                    <a href="#" ><a routerLink="../watchingmachine">Washingmachine</a>
+                                  </a>
+                                  </div>
+                                </div>
+                                </div>
+                                <div class="col-sm-3">
+                                  <div class="card">
+                                    <img src="https://images.samsung.com/is/image/samsung/in-microwave-oven-convection-mc28h5025vb-mc28h5025vb-tl-001-front-black?$650_519_PNG$" width="50" height="290" class="card-img-top" >
+                                    <div class="card-body">
+                                    
+                                      <a href="#" ><a routerLink="../microwaveoven">Microwaveoven</a>
+                                    </a>
+                                    </div>
+                                  </div>
+                                  </div>
                               
         
         </div>

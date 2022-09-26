@@ -9,11 +9,13 @@ import { LaptopsComponent } from './laptops/laptops.component';
 import { TabletsComponent } from './tablets/tablets.component';
 
 import { SmartWearablesComponent } from './smart-wearables/smart-wearables.component';
-import { HeadphonesComponent } from './headphones/headphones.component';
 import { LoginComponent } from './login/login.component';
 import { DatastorageComponent } from './datastorage/datastorage.component';
 import { MobilesComponent } from './mobiles/mobiles.component';
 import { TelevisionsComponent } from './televisions/televisions.component';
+import { InvoiceComponent } from './invoice/invoice.component';
+import { WashingmachineComponent } from './washingmachine/washingmachine.component';
+import { MicrowaveovenComponent } from './microwaveoven/microwaveoven.component';
 
 
 @NgModule({
@@ -26,11 +28,14 @@ import { TelevisionsComponent } from './televisions/televisions.component';
        TabletsComponent,
        
        SmartWearablesComponent,
-       HeadphonesComponent,
+      
        LoginComponent,
        DatastorageComponent,
        MobilesComponent,
-       TelevisionsComponent
+       TelevisionsComponent,
+       InvoiceComponent,
+       WashingmachineComponent,
+       MicrowaveovenComponent
       
   
   ],
